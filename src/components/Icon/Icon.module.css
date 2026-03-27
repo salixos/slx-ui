@@ -1,0 +1,22 @@
+@import '../../tokens/index.css';
+
+.icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+/* Sizes */
+.xs { width: var(--font-size-xs); height: var(--font-size-xs); }
+.sm { width: var(--font-size-sm); height: var(--font-size-sm); }
+.md { width: var(--font-size-md); height: var(--font-size-md); }
+.lg { width: var(--font-size-lg); height: var(--font-size-lg); }
+.xl { width: var(--font-size-xl); height: var(--font-size-xl); }
+
+/* Colors */
+.primary   { color: var(--color-text-primary); }
+.secondary { color: var(--color-text-secondary); }
+.muted     { color: var(--color-text-muted); }
+.disabled  { color: var(--color-text-disabled); }
+.accent    { color: var(--color-accent); }
