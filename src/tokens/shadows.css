@@ -8,5 +8,5 @@
                 0 8px 10px -6px rgb(0 0 0 / 0.04);
 
   /* Focus ring — used on interactive elements for accessibility */
-  --shadow-focus: 0 0 0 3px rgb(59 130 246 / 0.4);
+  --shadow-focus: 0 0 0 3px rgb(59 130 246 / 0.2);
 }
