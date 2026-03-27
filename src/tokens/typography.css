@@ -1,6 +1,14 @@
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/InterVariable.woff2') format('woff2-variations');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   /* Font families */
-  --font-family-base: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-family-base: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   --font-family-mono: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', monospace;
 
   /* Font sizes */
@@ -20,9 +28,9 @@
   --font-weight-bold:     700;
 
   /* Line heights */
-  --line-height-tight:  1.25;
-  --line-height-snug:   1.375;
-  --line-height-normal: 1.5;
+  --line-height-tight:   1.25;
+  --line-height-snug:    1.375;
+  --line-height-normal:  1.5;
   --line-height-relaxed: 1.625;
 
   /* Letter spacing */

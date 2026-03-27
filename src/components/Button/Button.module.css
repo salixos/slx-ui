@@ -11,11 +11,11 @@
   border: var(--border-width-thin) solid transparent;
   border-radius: var(--radius-md);
   cursor: pointer;
-  transition: background-color 125ms cubic-bezier(0.2, 0, 0, 1),
-              color 125ms cubic-bezier(0.2, 0, 0, 1),
-              border-color 125ms cubic-bezier(0.2, 0, 0, 1),
-              box-shadow 125ms cubic-bezier(0.2, 0, 0, 1),
-              transform 125ms cubic-bezier(0.2, 0, 0, 1);
+  transition: background-color 200ms cubic-bezier(0.2, 0, 0, 1),
+              color 200ms cubic-bezier(0.2, 0, 0, 1),
+              border-color 200ms cubic-bezier(0.2, 0, 0, 1),
+              box-shadow 200ms cubic-bezier(0.2, 0, 0, 1),
+              transform 200ms cubic-bezier(0.2, 0, 0, 1);
   text-decoration: none;
   white-space: nowrap;
   user-select: none;
@@ -66,7 +66,7 @@
 .primary:active:not(:disabled) {
   background-color: var(--color-primary-800);
   border-color: var(--color-primary-800);
-  transform: scale(0.98);
+  transform: scale(0.99);
 }
 
 .secondary {
@@ -81,7 +81,7 @@
 
 .secondary:active:not(:disabled) {
   background-color: var(--color-neutral-300);
-  transform: scale(0.98);
+  transform: scale(0.99);
 }
 
 .tertiary {
@@ -98,7 +98,7 @@
 .tertiary:active:not(:disabled) {
   background-color: var(--color-neutral-950, #020617);
   border-color: var(--color-neutral-950, #020617);
-  transform: scale(0.98);
+  transform: scale(0.99);
 }
 
 .outline {
@@ -115,7 +115,7 @@
 .outline:active:not(:disabled) {
   background-color: var(--color-neutral-100);
   border-color: var(--color-neutral-300);
-  transform: scale(0.98);
+  transform: scale(0.99);
 }
 
 .ghost {
